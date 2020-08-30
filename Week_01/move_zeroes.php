@@ -1,0 +1,31 @@
+<?php
+
+class Solution {
+
+    /**
+     * @param Integer[] $nums
+     * @return NULL
+     */
+    function moveZeroes(&$nums) {
+        if (!$nums) {
+            return ;
+        }
+
+        $count = count($nums);
+        $j = 0;
+        for ($i = 0; $i < $count; $i ++ ) {
+            if ($nums[$i] != 0) {
+                $tmp = $nums[$i];
+                $nums[$i] = $nums[$j];
+                $nums[$j++] = $tmp;
+            }
+        }
+
+
+    }
+}
+
+$solution = new Solution();
+$nums = [9,1,0,3,12,23,0,15];
+$solution->moveZeroes($nums);
+echo print_r($nums, 1). "\n";
