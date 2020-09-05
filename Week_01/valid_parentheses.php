@@ -51,3 +51,5 @@ $solution = new Solution();
 $s = "()[){}";
 $rst = $solution->isValid($s);
 echo $rst . "\n";
+
+// 2020-08-29 leecode中文官方默认，PHP

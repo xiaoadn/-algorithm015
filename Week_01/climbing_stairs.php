@@ -24,4 +24,4 @@ $solution = new Solution();
 $rst = $solution->climbStairs(5);
 echo $rst . "\n";
 
-// // 2020-09-04 第一遍
+// // 2020-09-04 第一遍，leecode中文官方默认
