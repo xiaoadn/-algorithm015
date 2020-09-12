@@ -32,6 +32,27 @@ class Solution {
 
         return true;
     }
+
+
+    protected $pre = PHP_INT_MIN;
+    /**
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isValidBST_2($root) {
+        
+        if ($root == null) return true;
+
+        if (!$this->isValidBST_2($root->left)) return false;
+
+        if ($root->val <= $this->pre) {
+            return false;
+        }
+        $this->pre = $root->val;
+
+        return $this->isValidBST_2($root->right);
+    }
 }
 
-// 2020-09-10 leecode中文站
+// 2020-09-10 leetcode中文站
+// 2020-09-12 leetcode 中文站 英文站 中序

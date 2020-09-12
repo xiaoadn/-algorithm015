@@ -30,3 +30,4 @@ $rst =  $solution->generateParenthesis(3);
 var_dump($rst);
 
 // 20200908做，20200909理解
+// 20200912 leetcode中文 英文 理解：剪枝，如果没有符合条件的"drill down",直接退出本次递归
