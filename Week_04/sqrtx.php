@@ -3,6 +3,8 @@
 class Solution {
 
     /**
+     * 平方根
+     * 考察二分法
      * @param Integer $x
      * @return Integer
      */

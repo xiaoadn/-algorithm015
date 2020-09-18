@@ -10,9 +10,11 @@
  * }
  */
 class Solution {
-    protected
 
     /**
+     * 二叉树层序遍历
+     * 考察深度优先，广度优先
+     * 
      * @param TreeNode $root
      * @return Integer[][]
      */

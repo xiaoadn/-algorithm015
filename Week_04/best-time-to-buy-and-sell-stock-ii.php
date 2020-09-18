@@ -2,6 +2,9 @@
 class Solution {
 
     /**
+     * 股票最佳卖出时间，
+     * 考察贪心算法
+     * 
      * @param Integer[] $prices
      * @return Integer
      */
