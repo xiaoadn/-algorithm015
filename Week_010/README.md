@@ -21,6 +21,7 @@
         - optimal solution
     3. Coding:代码简洁、高性能、美感  https://shimo.im/docs/rHTyt8hcpT6D9Tj8
     4. Test cases
+8. 多看看别人做的笔记。怕自己的笔记做的不全面，多参考优秀同学的笔记
 #### 知识点
 ##### 数据结构
 1. 维:
